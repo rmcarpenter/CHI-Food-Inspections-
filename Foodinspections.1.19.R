@@ -13,7 +13,10 @@ jan.insp.fail = fdinsp %>%
   filter(insp.dates >= as.Date("2019-02-01") & insp.dates <= as.Date("2019-02-22")) %>% 
   filter(Results=="Fail")
 
-
+#march 
+feb.insp.fail = fdinsp %>% 
+  filter(insp.dates >= as.Date("2019-03-01") & insp.dates <= as.Date("2019-03-22")) %>% 
+  filter(Results=="Fail")
 
 
 
